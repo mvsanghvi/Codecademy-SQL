@@ -8,7 +8,11 @@
 -- To make it easier to read, we moved FROM to another line.
 
 -- Line breaks don’t mean anything specific in SQL. We could write this entire query in one line, and it would run just fine.
--- 1. Let’s only select the name and genre columns of the table.
 
+-- 1. Let’s only select the name and genre columns of the table.
 select name, genre
+from movies;
+
+-- 2. Now we want to include a third column. Edit your query so that it returns the name, genre, and year columns of the table.
+select name, genre, year
 from movies;
