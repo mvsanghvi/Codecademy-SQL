@@ -18,3 +18,4 @@
 -- The structure of SQL statements vary. The number of lines used does not matter. 
 -- A statement can be written all on one line, or split up across multiple lines if it makes it easier to read. 
 -- In this course, you will become familiar with the structure of common statements.
+SELECT * FROM celebs;

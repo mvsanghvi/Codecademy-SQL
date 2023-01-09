@@ -11,3 +11,4 @@
 -- Here, the result set contains every column in the celebs table.
 
 -- SELECT statements always return a new table called the result set.
+select * from celebs;

@@ -13,4 +13,9 @@
 --     -id is the first column in the table. It stores values of data type INTEGER
 --     -name is the second column in the table. It stores values of data type TEXT
 --     -age is the third column in the table. It stores values of data type INTEGER
-
+ SELECT * FROM celebs;
+ CREATE TABLE celebs (
+   id INTEGER,
+   name TEXT,
+   age INTEGER
+ );

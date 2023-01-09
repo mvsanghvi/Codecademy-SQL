@@ -1,5 +1,5 @@
 -- Nice work! In one line of code, you returned information from a relational database.
---     SELECT * FROM celebs;
+SELECT * FROM celebs;
 -- We’ll take a look at what this code means soon, for now, let’s focus on what relational databases are and how they are organized.
 -- A relational database is a database that organizes information into one or more tables. Here, the relational database contains one table.
 -- A table is a collection of data organized into rows and columns. Tables are sometimes referred to as relations. Here the table is celebs.
