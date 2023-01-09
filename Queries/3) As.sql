@@ -12,7 +12,7 @@
 --  -Although it’s not always necessary, it’s best practice to surround your aliases with single quotes.
 --  -When using AS, the columns are not being renamed in the table. The aliases only appear in the result.
 
--- To showcase what the AS keyword does, select the name column and rename it with an alias of your choosing.
+--1. To showcase what the AS keyword does, select the name column and rename it with an alias of your choosing.
 
 -- Place the alias inside single quotes, like so:
 
@@ -21,4 +21,8 @@
 
 -- Note in the result, that the name of the column is now your alias.
 select name as 'Names'
+from movies;
+
+-- 2. Edit the query so that instead of selecting and renaming the name column, select the imdb_rating column and rename it as IMDb.
+select imdb_rating as 'IMDb'
 from movies;
