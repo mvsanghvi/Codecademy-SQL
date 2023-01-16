@@ -3,10 +3,10 @@
 -- *OR operator displays a row if any condition is true.
 
 -- Suppose we want to check out a new movie or something action-packed:
-    -- SELECT *
-    -- FROM movies
-    -- WHERE year > 2014
-    --     OR genre = 'action';
+--    SELECT *
+--    FROM movies
+--    WHERE year > 2014
+--       OR genre = 'action';
 -- *year > 2014 is the 1st condition.
 -- *genre = 'action' is the 2nd condition.
 -- *OR combines the two conditions.
