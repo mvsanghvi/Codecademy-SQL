@@ -1,15 +1,15 @@
-A CASE statement allows us to create different outputs (usually in the SELECT statement). It is SQL’s way of handling if-then logic.
-Suppose we want to condense the ratings in movies to three levels:
-    1. If the rating is above 8, then it is Fantastic.
-    2. If the rating is above 6, then it is Poorly Received.
-    3. Else, Avoid at All Costs.
-        SELECT name,
-        CASE
-        WHEN imdb_rating > 8 THEN 'Fantastic'
-        WHEN imdb_rating > 6 THEN 'Poorly Received'
-        ELSE 'Avoid at All Costs'
-        END
-        FROM movies;
+-- A CASE statement allows us to create different outputs (usually in the SELECT statement). It is SQL’s way of handling if-then logic.
+--Suppose we want to condense the ratings in movies to three levels:
+--    1. If the rating is above 8, then it is Fantastic.
+--    2. If the rating is above 6, then it is Poorly Received.
+--    3. Else, Avoid at All Costs.
+--        SELECT name,
+--        CASE
+--        WHEN imdb_rating > 8 THEN 'Fantastic'
+--        WHEN imdb_rating > 6 THEN 'Poorly Received'
+--        ELSE 'Avoid at All Costs'
+--        END
+--        FROM movies;
 -- *Each WHEN tests a condition and the following THEN gives us the string if the condition is true.
 -- *The ELSE gives us the string if all the above conditions are false.
 -- *The CASE statement must end with END.
