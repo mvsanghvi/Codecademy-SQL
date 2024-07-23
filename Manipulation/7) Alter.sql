@@ -15,5 +15,4 @@
 -- Here, the rows that existed before the column was added have NULL (∅) values for twitter_handle.
  alter table celebs
  add column twitter_handle text;
-
  select * from celebs;
