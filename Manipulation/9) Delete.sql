@@ -13,3 +13,4 @@
  delete from celebs
  where twitter_handle is null;
  select * from celebs;
+ 
