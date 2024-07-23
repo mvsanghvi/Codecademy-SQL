@@ -9,6 +9,6 @@
 
 -- * is a special wildcard character that we have been using. It allows you to select every column in a table without having to name each one individually. 
 -- Here, the result set contains every column in the celebs table.
-
 -- SELECT statements always return a new table called the result set.
+
 select * from celebs;
