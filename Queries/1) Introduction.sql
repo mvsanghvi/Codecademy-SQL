@@ -7,4 +7,5 @@
 -- Let’s get started!
 
 -- Fun fact: IBM started out SQL as SEQUEL (Structured English QUEry Language) in the 1970’s to query databases.
-select * from movies;
+select * 
+from movies;
