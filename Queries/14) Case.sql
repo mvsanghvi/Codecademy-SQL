@@ -33,3 +33,12 @@ select name,
     Else 'Intense'
   End as 'Mood'
 from movies;
+
+--OR
+SELECT name,
+ CASE
+  WHEN genre = 'romance' OR genre = 'comedy' 
+   THEN 'Chill'
+  ELSE 'Intense'
+ END AS 'Mood'
+FROM movies;
