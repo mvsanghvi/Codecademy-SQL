@@ -6,4 +6,5 @@
 -- 4. AVG(): the average of the values in a column
 -- 5. ROUND(): round the values in the column
 -- Before getting started, take a look at the data in the fake_apps table:
+
 select * from fake_apps
