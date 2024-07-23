@@ -8,6 +8,7 @@
     -- SELECT name
     -- FROM movies 
     -- WHERE imdb_rating IS NOT NULL;
+    
 -- 1. Now let’s do the opposite. Write a query to find all the movies without an IMDb rating. Select only the name column!
 select name
 from movies
