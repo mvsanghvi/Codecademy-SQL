@@ -1,5 +1,4 @@
 -- The percentage sign % is another wildcard character that can be used with LIKE.
-
 -- This statement below filters the result set to only include movies with names that begin with the letter ‘A’:
 
 -- SELECT * 
@@ -18,8 +17,8 @@
 -- WHERE name LIKE '%man%';
 
 -- Here, any movie that contains the word ‘man’ in its name will be returned in the result.
-
 -- LIKE is not case sensitive. ‘Batman’ and ‘Man of Steel’ will both appear in the result of the query above.
+
 select *
 from movies
 where name like '%man%';
