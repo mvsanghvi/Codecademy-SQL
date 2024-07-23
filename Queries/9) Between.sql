@@ -4,9 +4,11 @@
 --     WHERE year BETWEEN 1990 AND 1999;
 
 -- When the values are text, BETWEEN filters the result set for within the alphabetical range.cIn this statement, BETWEEN filters the result set to only include movies with names that begin with the letter ‘A’ up to, but not including ones that begin with ‘J’.
+--
 --     SELECT *
 --     FROM movies
 --     WHERE name BETWEEN 'A' AND 'J';
+
 -- However, if a movie has a name of simply ‘J’, it would actually match. This is because BETWEEN goes up to the second value — up to ‘J’. So the movie named ‘J’ would be included in the result set but not ‘Jaws’.
 -- 1. Using the BETWEEN operator, write a query that selects all information about movies whose name begins with the letters ‘D’, ‘E’, and ‘F’.
 
