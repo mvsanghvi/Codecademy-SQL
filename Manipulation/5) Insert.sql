@@ -25,9 +25,7 @@ values (4, 'Taylor Swift', 26);
 
 -- As a shortcut:
 -- instead of inserting each row in a separate INSERT statement, you can actually insert multiple rows in a single statement.
-
 -- To do this, you can list the values for each row separated by commas, following the VALUES clause of the statement.
-
 -- Here is how it would look:
 
 INSERT INTO table (col1, col2, col3)
