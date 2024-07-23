@@ -19,6 +19,7 @@
 -- Attempts to insert a row without a value for a NOT NULL column will result in a constraint violation and the new row will not be inserted.
 
 -- 4. DEFAULT columns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
+
 CREATE TABLE awards (
   id INTEGER PRIMARY KEY,
   recipient TEXT NOT NULL,
