@@ -3,4 +3,5 @@
 -- What is the total number of downloads for all of the apps combined?
 SELECT SUM(downloads)
 FROM fake_apps;
+
 -- This adds all values in the downloads column.
