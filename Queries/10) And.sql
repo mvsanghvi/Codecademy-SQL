@@ -8,11 +8,13 @@
 -- *AND combines the two conditions.
 -- With AND, both conditions must be true for the row to be included in the result.
 -- 1. In the previous exercise, we retrieved every movie released in the 1970’s. Now, let’s retrieve every movie released in the 70’s, that’s also well received. In the code editor, type:
+
 SELECT *
 FROM movies
 WHERE year BETWEEN 1970 AND 1979
   AND imdb_rating > 8;
 -- 2. Suppose we have a picky friend who only wants to watch old horror films. Using AND, write a new query that selects all movies made prior to 1985 that are also in the horror genre.
+
 SELECT *
 FROM movies
 WHERE year <1985
