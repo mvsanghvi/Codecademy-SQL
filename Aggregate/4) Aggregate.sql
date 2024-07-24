@@ -5,7 +5,8 @@
 --FROM fake_apps;
 
 --The most popular app has 31,090 downloads!
---MAX() takes the name of a column as an argument and returns the largest value in that column. Here, we returned the largest value in the downloads column.
+--MAX() takes the name of a column as an argument and returns the largest value in that column. 
+--Here, we returned the largest value in the downloads column.
 --MIN() works the same way but it does the exact opposite; it returns the smallest value.
 
 --1. What is the least number of times an app has been downloaded?
