@@ -95,4 +95,16 @@ SELECT strftime('%H', timestamp),
 FROM hacker_news
 group by 1
 order by 2 desc;
+-- 11. Let’s edit a few things in the previous query: 
+--     Round the average scores (ROUND()).
+--     Rename the columns to make it more readable (AS).
+--     Add a WHERE clause to filter out the NULL values in timestamp.
+-- Take a look at the result again: What are the best hours to post a story on Hacker News?
+SELECT strftime('%H', timestamp),
+   round(avg(score), 1) AS 'Average Score',
+   count(*) AS 'Number of Stories'
+FROM hacker_news
+Where timestamp IS NOT NULL
+group by 1
+order by 2 desc;
 
