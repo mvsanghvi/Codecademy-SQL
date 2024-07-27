@@ -44,11 +44,11 @@ SELECT category, count(*)
 FROM startups
 GROUP by category
 HAVING count(*)> 3;
-13. What is the average size of a startup in each location?
+-- 13. What is the average size of a startup in each location?
 SELECT location, AVG(employees)
 FROM startups
 GROUP BY location;
-14. What is the average size of a startup in each location, with average sizes above 500?
+-- 14. What is the average size of a startup in each location, with average sizes above 500?
 SELECT location, AVG(employees)
 FROM startups
 GROUP BY location
