@@ -18,4 +18,23 @@ WHERE stage = 'Seed';
 -- 6. In what year was the oldest company on the list founded?
 SELECT MIN(founded)
 FROM startups;
+-- 7. Return the average valuation.
+SELECT AVG(valuation)
+FROM startups;
+-- 8. Return the average valuation, in each category.
+SELECT category, AVG(valuation)
+FROM startups
+GROUP BY category;
+-- 9. Return the average valuation, in each category. Round the averages to two decimal places.
+SELECT category, round(AVG(valuation), 2)
+FROM startups
+GROUP BY category;
+-- 10. Return the average valuation, in each category. Round the averages to two decimal places. 
+-- Lastly, order the list from highest averages to lowest.
+SELECT category, round(AVG(valuation), 2)
+FROM startups
+GROUP BY category
+order by avg(valuation) DESC;
+-- 11. First, return the name of each category with the total number of companies that belong to it.
+
 
