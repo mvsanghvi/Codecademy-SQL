@@ -36,5 +36,13 @@ FROM startups
 GROUP BY category
 order by avg(valuation) DESC;
 -- 11. First, return the name of each category with the total number of companies that belong to it.
+SELECT category, count(*)
+FROM startups
+GROUP by category;
+-- 12. Next, filter the result to only include categories that have more than three companies in them. What are the most competitive markets?
+SELECT category, count(*)
+FROM startups
+GROUP by category
+HAVING count(*)> 3;
 
 
