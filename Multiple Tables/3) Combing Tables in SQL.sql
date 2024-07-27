@@ -4,7 +4,7 @@
 --     SELECT *
 --     FROM orders
 --     JOIN customers
---     ON orders.customer_id = customers.customer_id;
+--      ON orders.customer_id = customers.customer_id;
 
 -- Let’s break down this command:
 --     The first line selects all columns from our combined table. If we only want to select certain columns, we can specify which ones we want.
@@ -18,7 +18,7 @@
 --     customers.customer_name
 --     FROM orders
 --     JOIN customers
---     ON orders.customer_id = customers.customer_id;
+--      ON orders.customer_id = customers.customer_id;
 
 -- 1. Join orders table and subscriptions table and select all columns. Make sure to join on the subscription_id column.
 SELECT *
