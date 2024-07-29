@@ -23,5 +23,22 @@ FROM riders
 UNION
 SELECT *
 FROM riders2;
+-- 7. What is the average cost for a trip?
+SELECT AVG(cost)
+FROM trips;
+-- 8. Lyft is looking to do an email campaign for all the irregular users. Find all the riders who have used Lyft less than 500 times!
+select *
+from riders
+where total_trips < 500;
+-- 9. Calculate the number of cars that are active.
+select count(*)
+from cars
+where status='active';
+-- 10. It’s safety recall time for cars that have been on the road for a while. Write a query that finds the two cars that have the highest trips_completed.
+select *
+from cars
+order by trips_completed DESC
+LIMIT 2;
+
 
 
